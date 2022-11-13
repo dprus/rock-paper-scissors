@@ -1,0 +1,240 @@
+@font-face {
+    font-family: 'Gaming';
+    src: url(fonts/Retro\ Gaming.ttf);
+}
+
+body {
+    background-color: rgb(57, 57, 73);
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Gaming', sans-serif;
+    /* nie zaznacza tekstu */
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.flex-container-one {
+    display: flex;
+    width: 100%;
+    min-height: 260px;
+    background-color: rgb(41, 41, 54);
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.title-text {
+    font-size: 80px;
+    font-weight: 700;
+    color: rgb(226, 221, 190);
+}
+
+.who-won {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    min-height: 100px;
+    min-width: 40%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+}
+
+.who-won-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    font-size: 30px;
+    color: rgb(226, 221, 190);
+    background-color: rgb(99, 99, 128);
+    border-radius: 20px;
+    height: 100px;
+    width: 70%;
+}
+
+.flex-container-two {
+    display: flex;
+    width: 100%;
+    min-height: 280px;
+    min-width: 280px;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+   
+   
+}
+
+ .choose-text  {
+    color: rgb(226, 221, 190);
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.flexboxes {
+    display: flex;
+    width: 250px;
+    height: 250px;
+    background-color: rgb(99, 99, 128);
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    flex-direction: row;
+    flex-grow: 0;
+}
+
+.flexboxes:hover{
+    width: 255px;
+    height: 255px; 
+    transition-duration: 250ms;
+    cursor: pointer;
+    
+}
+
+.flexboxes:active{
+    width: 275px;
+    height: 275px;
+    transition-duration: 250ms;
+    cursor: pointer;
+    background-color: rgb(75, 75, 97);
+}
+
+/* .you-vs-computer {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    gap: 15%;
+    font-size: 45px;
+    color: rgb(226, 221, 190);
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.your-score, .computer-score {
+    display: flex;
+    justify-content: center;
+    height: 450px;
+    width: 650px;
+    background-color: rgb(99, 99, 128);
+    gap: 10px;
+
+}
+
+.score-table p {
+    display: flex;
+    background-color:  rgb(41, 41, 54);
+    width: 650px;
+    height: 105px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+} */
+
+.score-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    min-width: 650px;
+    height: 80px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.score-header-you, .score-header-computer {
+    display: flex;
+    background-color: rgb(41, 41, 54);
+    width: 650px;
+    height: 80px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.score-header-you p, .score-header-computer p {
+    font-size: 40px;
+    color: rgb(226, 221, 190);
+}
+
+.score-emoji {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+    min-width: 650px;
+    height: 100%;
+    margin: 0;
+}
+
+.score-emoji-you, .score-emoji-computer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 650px;
+    height: 350px;
+    background-color: rgb(99, 99, 128);
+    margin-top: 0;
+    
+}
+
+.score-emoji-you p, .score-emoji-computer p {
+    font-size: 190px;
+}
+
+.new-game-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 400px;
+    min-height: 140px;
+    margin-top: 80px;
+}
+
+.btn-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 140px;
+    color: rgb(226, 221, 190);
+    font-size: 60px;
+    background-color: rgb(41, 41, 54);
+    border-radius: 20px;
+}
+
+.btn-text:hover{
+    width: 410px;
+    height: 145px;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+
+.btn-text:active{
+    width: 430px;
+    height: 155px;
+    transition-duration: 250ms;
+    transition-timing-function: linear;
+    cursor: pointer;
+    background-color: rgb(25, 25, 36);
+}
+
+.footer {
+    display: flex;
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(41, 41, 54);
+    justify-content: center;
+    align-items: center;
+    color: rgb(226, 221, 190);
+    position: absolute;
+    bottom: 0;
+}
